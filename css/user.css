@@ -1,0 +1,175 @@
+body{
+	margin: 0 auto 0 auto;
+	padding: 0;
+	min-width: 1000px;
+	overflow-x: hidden;
+	font-family: 'ubuntulite';
+	background: url('../images/user_back.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+
+#left,#right{
+	display: inline-block;
+	float:left;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#left{
+	width: 200px;
+	background-color:black;
+	color: white;
+	height: 100%;
+	min-height: 400px;
+}
+@font-face{
+	font-family: "ubuntulite";
+	src: url("fonts/Ubuntu-L.ttf");
+}
+.category{
+	color: white;
+	padding: 5px;
+	transition: background-color,0.8s;
+	transition: color,0.5s;
+
+}
+.category:hover{
+	background-color: chocolate;
+	color: black;
+	cursor: pointer;
+}
+.categoryS{
+	color: black;
+	padding: 5px;
+	background-color: chocolate;
+	box-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+.userHeaderOpS{
+	background-color: black;
+	color: white;
+	box-shadow: 0 0 4px rgba(0,0,0,0.8);
+	border-radius: 3px;
+	padding: 5px;
+	margin-right: 20px;
+}
+.userHeaderOp{
+	border-radius: 3px;
+	padding: 5px;
+	border-radius: 3px;
+	margin-right: 20px;
+	transition: background-color,0.8s;
+	transition: color,0.5s;	
+}
+.userHeaderOp:hover{
+	background-color: black;
+	color: white;
+	cursor: pointer;
+}
+#contentOp{
+	position:relative;
+	top:10px;
+	margin: 10px;
+}
+#userHeader{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#addProduct,#pOrders,#pOrdersBuy{
+	border-radius: 3px;
+	padding:5px;
+	transition: background-color, 0.7s;
+	transition: color, 0.4s;
+	
+}
+#addProduct:hover,#pOrders:hover,#pOrdersBuy:hover{
+	cursor: pointer;
+	background-color:black;
+	color: white;
+}
+#lightbox{
+	position:fixed;
+	top:0;
+	left:0;
+	height: 100%;
+	width:100%;
+	background-color:rgba(0,0,0,0.8);
+}
+#prodInfoAction{
+	position:relative;
+	top: 10px;
+}
+#setSold,#cancelOrder{
+	padding:5px;
+	transition: background-color,0.8s;
+	transition: color, 0.4s;
+}
+#setSold:hover,#cancelOrder:hover{
+	cursor:pointer;
+	background-color: black;
+	color: white;
+}
+#rightContent{
+	position:relative;
+	top:20px;
+}
+.prodOrder{
+	padding: 5px;
+	margin: 5px;
+
+}
+#header{
+	height: 50px;
+	background-color: black;
+	color: white;
+	width: 100%;
+	left: 0;
+	top: 0;
+	position: absolute;
+}
+#content{
+	position: relative;
+	top: 50px;
+}
+#right{
+	position:relative;
+	left: 20px;
+}
+.deleteProd:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.changePic:hover{
+	cursor:pointer;
+	text-decoration: underline;
+}
+
+.product{
+	display:inline-block;
+	margin: 10px;
+	float:left;
+}
+.product > img:hover{
+	cursor: pointer;
+}
+#editProdDesc{
+	padding:3px 5px 3px 5px;
+	background-color: black;
+	color: white;
+	border-radius: 3px;
+	cursor: pointer;
+}
+.cancelOrderBuy:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+#body{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(255,255,255,0.8);
+}

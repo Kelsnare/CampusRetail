@@ -1,0 +1,97 @@
+body{
+	margin: 0 auto 0 auto;
+	text-align: center;
+	min-height: 500px;
+	min-width: 1000px;
+	padding: 0;
+	background: url('../images/index_background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	font-family: "ubuntulite";
+}
+#body{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	min-height: 500px;
+	min-width: 1000px;
+	background-color: rgba(0,0,0,0.85);
+	color:white;
+	top: 0;
+	left: 0;
+}
+#userList{
+	color: white;
+}
+#content{
+	z-index: 3;
+}
+#signin{
+	position: absolute;
+}
+#header{
+	background-color: #000000;
+	z-index: 4;
+	font-family: "logobloqo2";
+	font-size: 50pt;
+	padding: 20px;
+	text-align: left;
+	color: white;
+}
+@font-face{
+	font-family: "logobloqo2";
+	src: url("fonts/Logobloqo2.ttf");
+}
+@font-face{
+	font-family: "ubuntulite";
+	src: url("fonts/Ubuntu-L.ttf");
+}
+#logoText{
+	position: relative;
+}
+a{
+	text-decoration: none;
+	color: white;
+	transition: color, 0.4s;
+}
+a:link:hover{
+	color: chocolate;
+}
+a:visited{
+	color: white;
+}
+#signInWebmail > input{
+	width: 200px;
+	height: 40px;
+}
+#signInPass > input{
+	height: 40px;
+}
+input{
+	padding-left: 5px;
+	margin-right: 3px;
+	outline: none;
+	border:none;
+	border-radius: 3px;
+}
+input:focus{
+	box-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+#signInBtn{
+	padding: 5px;
+	border: none;
+	color: white;
+	background-color: black;
+	border-radius: 5px;
+	transition: box-shadow, 0.5s;
+	font-size: 13pt;
+}
+#signInBtn:hover{
+	cursor: pointer;
+	box-shadow: 0 0 3px rgba(255,255,255,0.8);
+}
+#signup:link:hover,#forgotPass:link:hover{
+	color: chocolate;
+}
